@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 
-interface CarModel {
+export interface CarModel {
   modelName: string;
   overlayNode: ReactNode;
   sectionRef: React.RefObject<HTMLElement>;
@@ -14,4 +14,5 @@ interface ModelsContext {
   getModelByName: (modelName: string) => CarModel | null;
 }
 
+// Export with default values
 export default React.createContext<ModelsContext>({} as ModelsContext);
