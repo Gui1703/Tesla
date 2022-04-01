@@ -31,7 +31,7 @@ export const Buttons = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 
   > button {
     background: #1a1720;
@@ -53,6 +53,10 @@ export const Buttons = styled.div`
       background: #fff;
       color: #1a1720;
       opacity: 0.65;
+    }
+
+    &.black {
+      padding: 13px 60px;
     }
 
     & + button {
