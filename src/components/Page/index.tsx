@@ -11,13 +11,13 @@ const Page: React.FC = () => {
       <ModelsWrapper>
         <div>
           {[
-            "Model One",
-            "Model Two",
-            "Model Three",
-            "Model Four",
-            "Model Five",
-            "Model Six",
-            "Model Seven",
+            "Model 3",
+            "Model Y",
+            "Model S",
+            "Model X",
+            "Solar Panels",
+            "Solar Roof",
+            "Accessories",
           ].map((modelName) => (
             <ModelSection
               key={modelName}
@@ -26,7 +26,7 @@ const Page: React.FC = () => {
               overlayNode={
                 <DefaultOverlayContent
                   label={modelName}
-                  description="Order Online for Delivery"
+                  description="Order Online for Touchless Delivery"
                 />
               }
             />

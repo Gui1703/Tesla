@@ -74,5 +74,5 @@ export const Container = styled.div`
 
 export const Spacer = styled.div`
   height: 10vh;
-  background: #77e68c;
+  background: #FFF;
 `;
